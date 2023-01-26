@@ -6,5 +6,3 @@ streamlit-lottie==0.0.3
 streamlit-on-Hover-tabs==1.0.1
 streamlit-option-menu==0.3.2
 st_pages==0.3.1
-
-pandas==1.4.3
