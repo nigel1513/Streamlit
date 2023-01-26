@@ -16,15 +16,6 @@ scipy==1.5.4
 Scrapy==2.6.2
 seaborn==0.11.2
 
-tensorboard==2.9.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.9.1
-tensorflow-datasets==4.8.0
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.26.0
-tensorflow-metadata==1.12.0
-
 matplotlib==3.5.2
 matplotlib-inline==0.1.6
 plotly==5.13.0
