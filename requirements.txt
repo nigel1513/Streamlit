@@ -15,7 +15,6 @@ pycaret==2.3.10
 
 scikit-image==0.19.2
 scikit-learn==0.23.2
-scikit-learn-intelex==2021.20220215.102710
 scikit-plot==0.3.7
 scipy==1.5.4
 Scrapy==2.6.2
