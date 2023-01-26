@@ -29,25 +29,25 @@ page_title='Data Sientist?',
 page_icon="🚀", initial_sidebar_state="collapsed"
 )
 
-add_page_title()
+#add_page_title()
 
-show_pages([
-    Page("Streamlit_app.py", "Home", "🏰"),
-    Section(name="EDA & Preprocessing", icon="🩺"),
-    Page("pages/EDA/EDA.py", "EDA", "📋"),
-    Page("pages/EDA/PRE-PROCESSING.py", "Preprocessing", "📝"),      
-    Section(name="Visualization", icon="📊"),
-    Page("pages/VISUALIZATION/VISUALIZATION.py", "Visualization", "📈"),
-    Page("pages/VISUALIZATION/ipyvizzu.py", "Ipyvizzu", "📉"),    
-    Section(name="Auto-ML", icon="🤖"),
-    Page("pages/AUTO-ML/Auto-ML.py", "Pycaret", "🥕"),
-    Page("pages/AUTO-ML/ChatGPT.py", "Chat-Bot", "👨‍💻"),
-    Section(name="Project", icon="🧪"),
-    Page("pages/PROJECT/Football Player Dashboard.py", "Football-Dashboard", "⚽"),
-    Section(name="Contact", icon= ":mailbox:"),
-    Page("pages/Contact/CONTACT.py", "Contact", "📞"),
-    Page("pages/Contact/ABOUTME.py", "About me", "🙂"),
-])
+#show_pages([
+#    Page("Streamlit_app.py", "Home", "🏰"),
+#    Section(name="EDA & Preprocessing", icon="🩺"),
+#    Page("pages/EDA/EDA.py", "EDA", "📋"),
+#    Page("pages/EDA/PRE-PROCESSING.py", "Preprocessing", "📝"),      
+#    Section(name="Visualization", icon="📊"),
+#    Page("pages/VISUALIZATION/VISUALIZATION.py", "Visualization", "📈"),
+#    Page("pages/VISUALIZATION/ipyvizzu.py", "Ipyvizzu", "📉"),    
+#    Section(name="Auto-ML", icon="🤖"),
+#    Page("pages/AUTO-ML/Auto-ML.py", "Pycaret", "🥕"),
+#    Page("pages/AUTO-ML/ChatGPT.py", "Chat-Bot", "👨‍💻"),
+#    Section(name="Project", icon="🧪"),
+#    Page("pages/PROJECT/Football Player Dashboard.py", "Football-Dashboard", "⚽"),
+#    Section(name="Contact", icon= ":mailbox:"),
+#    Page("pages/Contact/CONTACT.py", "Contact", "📞"),
+#    Page("pages/Contact/ABOUTME.py", "About me", "🙂"),
+# ])
 
 
 st.title('WELCOME🥳')
