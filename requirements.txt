@@ -7,7 +7,6 @@ streamlit-on-Hover-tabs==1.0.1
 streamlit-option-menu==0.3.2
 st_pages==0.3.1
 
-numpy==1.20.0
 pandas==1.4.3
 pandas-profiling==3.3.0
 pandocfilters==1.5.0
