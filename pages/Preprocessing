@@ -18,8 +18,6 @@ from sklearn.preprocessing import MaxAbsScaler
 from sklearn.preprocessing import Normalizer
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split
-from sympy import degree
-
 
 
 # 개발해야 하는 부분 1. outlier 개발 
