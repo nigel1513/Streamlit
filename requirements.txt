@@ -11,4 +11,7 @@ streamlit-chat==0.0.2.1
 st_pages==0.3.1
 pandas==1.4.3
 scikit-image==0.19.2
+scikit-learn==0.23.2
 plotly==5.10.0
+matplotlib==3.5.1
+matplotlib-inline==0.1.2
