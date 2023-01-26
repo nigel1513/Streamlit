@@ -12,7 +12,7 @@ st_pages==0.3.1
 pandas==1.4.3
 pathlib==1.0.1
 pycaret==2.3.10
-numpy==1.22.2
+numpy==1.23.4
 ipyvizzu==0.13.0
 ipywidgets==7.6.5
 plotly==5.13.0
