@@ -29,7 +29,7 @@ page_title='Data Sientist?',
 page_icon="🚀", initial_sidebar_state="collapsed"
 )
 
-#add_page_title()
+add_page_title()
 
 show_pages([
     Page("Streamlit_app.py", "Home", "🏰"),
