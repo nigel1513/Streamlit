@@ -34,7 +34,7 @@ show_pages([
     Section(name="Data Analysis", icon="📘"),
     Page("pages/EDA.py", "EDA", "🔎"),
     Page("pages/Preprocessing.py", "Preprocessing", "📝"),      
-    Page("pages/Visualization.py", "📊"),
+    Page("pages/Visualization.py", "Visualization", "📊"),
      
     Section(name="Auto-ML", icon="🤖"),
     Page("pages/pycaret.py", "Pycaret", "🥕"),
