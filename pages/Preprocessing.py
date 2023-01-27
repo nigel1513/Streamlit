@@ -1462,7 +1462,7 @@ def Polynomial_encoding(df):
    
 # 화면노출
 st.title("🚧 Pre-processing")
-upload_file = st.file_uploader("파일을 업로드 해주세요", type=['xlsx', 'xls', 'csv'], accept_multiple_files=False)
+upload_file = st.file_uploader(label="", type=['xlsx', 'xls', 'csv'], accept_multiple_files=False)
 
 if upload_file is not None:
     try:
@@ -1557,4 +1557,4 @@ if upload_file is not None:
 
 
 else:
-    st.warning('you need to upload a csv or excel file.')
+    pass
