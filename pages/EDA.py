@@ -339,7 +339,7 @@ if upload_file is not None:
         st.subheader("#1. RAW DATA")
         st.dataframe(df.iloc[:,1:]) # 함수
 
-    try:
+  try:
         # 데이터 info
         st.markdown("---")
         st.subheader("#2. DATA INFO & SHAPE")
