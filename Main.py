@@ -29,22 +29,21 @@ page_title='Data Analysis',
 page_icon="🚀", initial_sidebar_state="collapsed")
 
 
-#show_pages([
-#    Page("Main.py", "Home", "🏠"),
-#    Section(name="Data Analysis", icon="📘"),
-#    Page("pages/EDA.py", "EDA", "🔎"),
-#    Page("pages/Preprocessing.py", "Preprocessing", "📝"),      
-#    Page("pages/Visualization.py", "📊"),
-#     
-#    Section(name="Auto-ML", icon="🤖"),
-#    Page("pages/pycaret.py", "Pycaret", "🥕"),
-
-#    Section(name="Project", icon="🧪"),
-#    Page("pages/football.py", "Soccer-Dashboard", "⚽"),
-#    Page("pages/ipyvizzu.py", "Ipyvizzu", "🎈"),  
-#    Section(name="Contact", icon= ":mailbox:"),
-#    Page("pages/Contact.py", "Contact", "📞"),
-# ])
+show_pages([
+    Page("Main.py", "Home", "🏠"),
+    Section(name="Data Analysis", icon="📘"),
+    Page("pages/EDA.py", "EDA", "🔎"),
+    Page("pages/Preprocessing.py", "Preprocessing", "📝"),      
+    Page("pages/Visualization.py", "📊"),
+     
+    Section(name="Auto-ML", icon="🤖"),
+    Page("pages/pycaret.py", "Pycaret", "🥕"),
+    Section(name="Project", icon="🧪"),
+    Page("pages/football.py", "Soccer-Dashboard", "⚽"),
+    Page("pages/ipyvizzu.py", "Ipyvizzu", "🎈"),  
+    Section(name="Contact", icon= ":mailbox:"),
+    Page("pages/Contact.py", "Contact", "📞"),
+ ])
 
 
 st.title('WELCOME Data Analysis page🥳 ')
