@@ -2,6 +2,11 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
+
+st.set_page_config(
+page_title='Auto-ML',
+page_icon="🤖")
+
 openai.api_key = st.secrets["pass"]
 
 def generate_response(prompt):
