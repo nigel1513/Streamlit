@@ -1,3 +1,5 @@
+# 아직 수정 중.
+
 import streamlit as st
 from PIL import Image
 import streamlit as st
