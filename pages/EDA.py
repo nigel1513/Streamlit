@@ -45,7 +45,7 @@ background-color: rgba(0, 0, 0, 0);
 
 #-- 1.Data Load
 @st.cache
-def load_dataframe(upload_file):
+def load_dataframe():
     try:
         df = pd.read_csv(upload_file)
         
@@ -333,14 +333,13 @@ def df_pivot_table(df):
 # 노출화면 함수 넣어
 
 if upload_file is not None:
-    try:
         # 데이터 불러오기
         df, columns = load_dataframe(upload_file=upload_file)
         st.markdown("---")
         st.subheader("#1. RAW DATA")
         st.dataframe(df.iloc[:,1:]) # 함수
 
-
+    try:
         # 데이터 info
         st.markdown("---")
         st.subheader("#2. DATA INFO & SHAPE")
