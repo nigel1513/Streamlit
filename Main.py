@@ -35,7 +35,6 @@ show_pages([
     Page("pages/EDA.py", "EDA", "🔎"),
     Page("pages/Preprocessing.py", "Preprocessing", "📝"),      
     Page("pages/Visualization.py", "Visualization", "📊"),
-     
     Section(name="Auto-ML", icon="🤖"),
     Page("pages/pycaret.py", "Pycaret", "🥕"),
     Section(name="Project", icon="🧪"),
