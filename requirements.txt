@@ -17,3 +17,4 @@ matplotlib==3.5.1
 matplotlib-inline==0.1.2
 aiohttp==3.8.1
 pycaret==2.3.10
+openai==0.26.1
