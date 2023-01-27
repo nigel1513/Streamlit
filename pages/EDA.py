@@ -332,14 +332,17 @@ def df_pivot_table(df):
 
 # 노출화면 함수 넣어
 
+# 노출화면 함수 넣어
+
 if upload_file is not None:
+    try:
         # 데이터 불러오기
         df, columns = load_dataframe(upload_file=upload_file)
         st.markdown("---")
         st.subheader("#1. RAW DATA")
         st.dataframe(df.iloc[:,1:]) # 함수
 
-  
+
         # 데이터 info
         st.markdown("---")
         st.subheader("#2. DATA INFO & SHAPE")
@@ -440,4 +443,6 @@ if upload_file is not None:
            #components.html(t.read(), width=800, height=1000, scrolling=True)
         #------------ 나중에 새창열기로 만들기 -----------
 
+    except Exception as e:
+            print(e)
 
