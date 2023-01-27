@@ -50,8 +50,7 @@ page_icon="🚀", initial_sidebar_state="collapsed"
 # ])
 
 
-st.title('WELCOME🥳')
-st.subheader('Data Analysis Page')
+st.title('WELCOME Data Analysis page🥳 ')
 st.text("Data Analysis page") 
 
 st.markdown(hide_menu, unsafe_allow_html=True)
