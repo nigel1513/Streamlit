@@ -56,8 +56,9 @@ fpl_slim_elements_df['rank'] = fpl_slim_elements_df['rank'].astype(int)
 
 st.dataframe(fpl_slim_elements_df)
 
+
 st.header("⚽Soccoer Players")
-players_select = st.selectbox("Select Player",fpl_slim_elements_df['web_name'])
+players_select = st.selectbox("Select Player",fpl_slim_elements_df['web_name'], index=617)
 players_team = fpl_slim_elements_df[['web_name','team']]
 players_team = players_team.set_index(['web_name'])
 
@@ -77,3 +78,4 @@ st.markdown("---")
 st.subheader('🎬Player Highlight')
 if players_select == players_select:
     st.video('https://youtu.be/yJVYTOqjavc')
+    
