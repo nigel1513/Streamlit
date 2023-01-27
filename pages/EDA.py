@@ -339,7 +339,7 @@ if upload_file is not None:
         st.subheader("#1. RAW DATA")
         st.dataframe(df.iloc[:,1:]) # 함수
 
-  try:
+  
         # 데이터 info
         st.markdown("---")
         st.subheader("#2. DATA INFO & SHAPE")
@@ -440,6 +440,4 @@ if upload_file is not None:
            #components.html(t.read(), width=800, height=1000, scrolling=True)
         #------------ 나중에 새창열기로 만들기 -----------
 
-    except Exception as e:
-            print(e)
 
