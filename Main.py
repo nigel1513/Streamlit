@@ -41,7 +41,7 @@ page_icon="🚀", initial_sidebar_state="collapsed")
 
 #    Section(name="Project", icon="🧪"),
 #    Page("pages/football.py", "Soccer-Dashboard", "⚽"),
-#    Page("pages/ipyvizzu.py", "Ipyvizzu", "📉"),  
+#    Page("pages/ipyvizzu.py", "Ipyvizzu", "🎈"),  
 #    Section(name="Contact", icon= ":mailbox:"),
 #    Page("pages/Contact.py", "Contact", "📞"),
 # ])
