@@ -148,7 +148,7 @@ def split_x_y(df):
     else:
         try:
             st.info("Upload Your Target Data", icon='ℹ️')
-            target = st.file_uploader("파일을 업로드 해주세요", type=['xlsx', 'xls', 'csv'], accept_multiple_files=False, key='<target>')
+            target = st.file_uploader("", type=['xlsx', 'xls', 'csv'], accept_multiple_files=False, key='<target>')
             target_dataframe(target)
             if target.shape[0] != features.shape[0] or target.shape[1] != 1:
                 try:
@@ -1557,4 +1557,4 @@ if upload_file is not None:
 
 
 else:
-    st.warning('you need to upload a csv or excel file.')
+    pass
