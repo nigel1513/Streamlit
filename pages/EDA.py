@@ -45,7 +45,7 @@ background-color: rgba(0, 0, 0, 0);
 
 #-- 1.Data Load
 @st.cache
-def load_dataframe():
+def load_dataframe(upload_file):
     try:
         df = pd.read_csv(upload_file)
         
@@ -332,8 +332,6 @@ def df_pivot_table(df):
 
 # 노출화면 함수 넣어
 
-# 노출화면 함수 넣어
-
 if upload_file is not None:
     try:
         # 데이터 불러오기
@@ -445,4 +443,3 @@ if upload_file is not None:
 
     except Exception as e:
             print(e)
-
