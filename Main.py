@@ -28,6 +28,7 @@ st.set_page_config(
 page_title='Data Analysis',
 page_icon="🚀", initial_sidebar_state="collapsed")
 
+add_page_title()
 
 show_pages([
     Page("Main.py", "Home", "🏠"),
