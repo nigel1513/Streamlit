@@ -32,7 +32,7 @@ page_icon="🚀", initial_sidebar_state="collapsed")
 show_pages([
     Page("Main.py", "Home", "🏠"),
     #Section(name="Data Analysis", icon="📘"),
-    page("pages/Collection.py", "Collection", "📚"),
+    Page("pages/Collection.py", "Collection", "📚"),
     Page("pages/EDA.py", "EDA", "🔎"),
     Page("pages/Preprocessing.py", "Preprocessing", "📝"),      
     Page("pages/Visualization.py", "Visualization", "📊"),
