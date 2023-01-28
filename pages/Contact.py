@@ -34,7 +34,7 @@ st.header(":mailbox: CONTACT ME")
 st.subheader("")
 
 contact_form = """
-<form action="https://formsubmit.co/wjdgus1513@naver.com" method="POST">
+<form action="https://formsubmit.co/bigdatanigel1513@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder ="이름" required>
      <input type="email" name="email" placeholder ="이메일" required>
