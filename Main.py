@@ -32,7 +32,7 @@ add_page_title()
 
 show_pages([
     Page("Main.py", "Home", "🏠"),
-    Page("Chatbot.py", "Chat-bot", "🧙"),
+    Page("pages/Chatbot.py", "Chat-bot", "🧙"),
     #Section(name="Data Analysis", icon="📘"),
     Page("pages/Collection.py", "Collection", "📚"),
     Page("pages/EDA.py", "EDA", "🔎"),
