@@ -1,4 +1,4 @@
-autoviz==0.1.58
+autoviz=0.1.58
 streamlit==1.12.2
 extra-streamlit-components==0.1.55
 streamlit-authenticator==0.2.1
@@ -16,6 +16,6 @@ plotly==5.10.0
 matplotlib==3.5.1
 matplotlib-inline==0.1.2
 aiohttp==3.8.1
-pycaret==2.3.10
+pycaret<=2.3.10
 openai==0.26.1
 ipyvizzu==0.13.0
